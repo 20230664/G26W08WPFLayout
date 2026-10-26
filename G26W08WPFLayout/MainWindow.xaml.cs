@@ -1,5 +1,4 @@
-﻿using System.Text;
-using System.Windows;
+﻿using System.Windows;
 
 namespace G26W08WPFLayout {
     /// <summary>
@@ -9,8 +8,9 @@ namespace G26W08WPFLayout {
         public MainWindow() {
             InitializeComponent();
         }
-        private void OnButton(object sender, RoutedEventArgs e) {
-            MyLabel.Content = "오랜 만입니다.";
-        }
-        }
+
+        //private void OnButton(object sender, RoutedEventArgs e) {
+        //    MyLabel.Content = "오랜 만입니다.";
+        //}
+    }
 }
