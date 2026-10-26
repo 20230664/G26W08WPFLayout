@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:G26W08WPFLayout"
         mc:Ignorable="d"
         Title="Layout" Height="450" Width="800">
+    <Border Padding="5" Background="LightGray">
     <StackPanel Orientation="Vertical">
         <Button Content="눌러주세요"/>
         <Button>또 눌러주세요</Button>
@@ -24,4 +25,5 @@
             <Button Content="버튼 3"/>
         </UniformGrid>
     </StackPanel>
+    </Border>
 </Window>
